@@ -34,13 +34,17 @@
 ### 1. 객체 위치 정보 정규화
 - YOLO 모델 학습을 위해 객체 위치 정보를 0 ~ 1 사이의 값으로 변환하는 과정을 진행
 - 객체 위치 정보 파일(.json) 구조 예시
+<p align="center">
 <img width="333" height="432" alt="Image" src="https://github.com/user-attachments/assets/c8b47ed1-5f2b-4110-9e6b-4ad034b28de7" />
+</p>
 
 <br>
 <br>
 
 - 변환 결과 예시
+<p align="center">
 <img width="247" height="130" alt="1" src="https://github.com/user-attachments/assets/e4e16ba8-8d67-4eb5-8e54-528da78cacb0" />
+</p>
 
 <br>
 <br>
