@@ -69,9 +69,8 @@
 <br>
 
 ### 4. 시연 영상
-<p align="center">
-[test dataset](https://github.com/user-attachments/assets/715ef921-bc30-4d1c-8d89-b6caf0dff56a)
-</p>
+
+- [test dataset](https://github.com/user-attachments/assets/715ef921-bc30-4d1c-8d89-b6caf0dff56a)
 
 - [daytime](https://github.com/user-attachments/assets/1867900f-da03-4578-b419-428d62d5cc6e)
 
