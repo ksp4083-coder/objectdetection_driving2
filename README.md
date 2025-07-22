@@ -46,13 +46,15 @@
 <br>
 
 ### 2. Base 모델 학습
-<img width="659" height="152" alt="Image" src="https://github.com/user-attachments/assets/ccdf299f-6ac9-409e-ad97-67a14824e575" />
+<img width="722" height="155" alt="image (2)" src="https://github.com/user-attachments/assets/fbc7bbc1-ffde-4628-a7eb-a4c1463476a4" />
+
 
 <br>
 <br>
 
 ### 3. 최종 모델 학습
-<img width="722" height="155" alt="image (2)" src="https://github.com/user-attachments/assets/3be51fdf-f2ba-43d3-b571-662f6c5a3762" />
+<img width="722" height="68" alt="image (1)" src="https://github.com/user-attachments/assets/84a32ea0-2a19-4c0a-aa47-21c80f46d644" />
+
 <img width="2400" height="1200" alt="results" src="https://github.com/user-attachments/assets/b93ab859-a1f2-426f-9c90-45c0ac75b1bf" />
 
 <br>
