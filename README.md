@@ -53,7 +53,8 @@
 <br>
 
 ### 3. 최종 모델 학습
-<img width="722" height="70" alt="image" src="https://github.com/user-attachments/assets/613f84b0-e480-4da0-a642-4f3e4724df05" />
+<img width="724" height="71" alt="image" src="https://github.com/user-attachments/assets/92f9c6e6-7bb9-4d52-ab29-cffcf208a011" />
+
 
 <img width="2400" height="1200" alt="results" src="https://github.com/user-attachments/assets/b93ab859-a1f2-426f-9c90-45c0ac75b1bf" />
 
