@@ -50,8 +50,6 @@
 <br>
 
 ### 2. Base 모델 학습
-
-### 3. Base 모델 검증 결과
 <p align="center">
 <img width="722" height="155" alt="image (2)" src="https://github.com/user-attachments/assets/fbc7bbc1-ffde-4628-a7eb-a4c1463476a4" />
 </p>
