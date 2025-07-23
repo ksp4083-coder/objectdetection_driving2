@@ -6,6 +6,7 @@
 <Br>
 
 ## 배경
+- 대회 기간 : 
 - 직접 모델을 개발하는 것에 흥미를 느껴 참가하게 됨
 - [대회 규칙](https://challenge.gcontest.co.kr/template/m/frame/info2/16335)
 
