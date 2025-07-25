@@ -70,10 +70,13 @@
 (해당 정보는 json 파일의 [Annotation][data] 변수에 들어있음)
 </p>
 <p align="center">
-해당 좌표를 활용해서 BBox의 중심 좌표, 가로 길이, 세로 길이를 구하고 원본 이미지 크기(image_width, image_height)로 나눠서 yolo format txt 파일을 생성함
+해당 좌표를 활용해서 BBox의 중심 좌표, 가로 길이, 그리고 세로 길이를 구하고
 </p>
 <p align="center">
-(객체 위치 정보 정규화.ipynb 파일에서 확인 가능)
+원본 이미지 크기(image_width, image_height)로 나눠서 yolo format txt 파일을 생성함
+</p>
+<p align="center">
+(해당 과정은 객체 위치 정보 정규화.ipynb 파일에서 확인 가능)
 </p>
 
 <br>
