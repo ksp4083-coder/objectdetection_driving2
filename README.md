@@ -79,9 +79,8 @@
 <p align="center">
 (해당 과정은 <ins>객체 위치 정보 정규화.ipynb</ins> 파일에서 확인 가능)
 </p>
-
 <br>
-
+<br>
 ##### BBox 중심 좌표, 가로 길이, 세로 길이 구하기
 - x = (x_min + x_max) / 2
 - y = (y_min + y_max) / 2
