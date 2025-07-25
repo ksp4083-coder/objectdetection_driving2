@@ -68,7 +68,7 @@
 우리가 사용하는 데이터에서 객체 위치 정보는 Bounding Box의 좌측 상단 좌표(x_min, y_min), 우측 하단 좌표(x_max, y_max)로 제공됨
 </p>
 <p align="center">
-x_min, x_max는 0 ~ 1920(원본 이미지 가로 길이)의 값을 갖고 y_min, y_max는 0 ~ 1200(원본 이미지 세로 길이)의 값을 갖음
+x_min, x_max는 0 ~ 1920의 값을 갖고 y_min, y_max는 0 ~ 1200의 값을 갖음
 </p>
 <p align="center">
 (해당 정보는 labels 폴더 json 파일의 [Annotation][data] 변수에 들어있음)
@@ -98,6 +98,7 @@ x_min, x_max는 0 ~ 1920(원본 이미지 가로 길이)의 값을 갖고 y_min,
 - y = (y_min + y_max) / 2
 - w = x_max - x_min
 - h = y_max - y_min
+- x와 w는 0 ~ 1920, y와 h는 0 ~ 1200 사이의 값을 갖음
 
 <br>
 
@@ -106,6 +107,7 @@ x_min, x_max는 0 ~ 1920(원본 이미지 가로 길이)의 값을 갖고 y_min,
 - yolo format y = y / image_height
 - yolo format w = w / image_width
 - yolo format h = h / image_height
+- yolo format x, y, w, h는 0 ~ 1 사이의 값을 갖음
 
 <br>
 
