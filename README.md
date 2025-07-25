@@ -107,16 +107,16 @@
 <br>
 
 ### 객체 정수 라벨
-            "car": "0",
-            "bus": "1",
-            "truck": "2",
-            "special vehicle": "3",
-            "motorcycle": "4",
-            "bicycle": "5",
-            "personal mobility": "6",
-            "person": "7",
-            "Traffic_light": "8",
-            "Traffic_sign": "9"
+0 : car
+1 : bus
+2 : truck
+3 : special vehicle
+4 : motorcycle
+5 : bicycle
+6 : personal mobility
+7 : person
+8 : Traffic_light
+9 : Traffic_sign
 
 <br>
 <br>
