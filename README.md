@@ -63,7 +63,6 @@
 편의를 위해 해당 txt 파일을 yolo format txt 파일이라 하겠음
 </p>
 <br>
-<br>
 <p align="center">
 우리가 사용하는 데이터에서 객체 위치 정보는 BBox 좌측 상단 좌표(x_min, y_min), 우측 하단 좌표(x_max, y_max)로 제공됨
 </p>
