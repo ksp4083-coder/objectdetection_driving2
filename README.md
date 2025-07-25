@@ -68,6 +68,9 @@
 우리가 사용하는 데이터에서 객체 위치 정보는 Bounding Box의 좌측 상단 좌표(x_min, y_min), 우측 하단 좌표(x_max, y_max)로 제공됨
 </p>
 <p align="center">
+x_min, x_max는 0 ~ 1920(원본 이미지 가로 길이)의 값을 갖고 y_min, y_max는 0 ~ 1200(원본 이미지 세로 길이)의 값을 갖음
+</p>
+<p align="center">
 (해당 정보는 labels 폴더 json 파일의 [Annotation][data] 변수에 들어있음)
 </p>
 <p align="center">
@@ -83,10 +86,10 @@
 <br>
 
 ### labels 폴더의 json 파일에서 추출한 정보
-- 이미지 파일명(image_name)
-- 원본 이미지 크기(image_width, image_height)
-- 객체명(class_name)
-- 객체 위치 정보(x_min, y_min, x_max, y_max)
+- 이미지 파일명 (image_name)
+- 원본 이미지 크기 (image_width, image_height)
+- 객체명 (class_name)
+- 객체 위치 정보 (x_min, y_min, x_max, y_max)
 
 <br>
 
