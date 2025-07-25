@@ -86,10 +86,10 @@ x_min, x_max는 0 ~ 1920의 값을 갖고 y_min, y_max는 0 ~ 1200의 값을 갖
 <br>
 
 ### labels 폴더의 json 파일에서 추출한 정보
-- 이미지 파일명 image_name = json_data['image_name']
-- 원본 이미지 가로길이 image_width = json_data['image_size'][0]
-- 원본 이미지 세로길이 image_height = json_data['image_size'][1]
-- 객체명 label_name = json_data['Annotation']['class_name']
+- 이미지 파일명
+- 원본 이미지 가로길이 (image_width)
+- 원본 이미지 세로길이 (image_height)
+- 객체명
 - 객체 위치 정보 (x_min, y_min, x_max, y_max)
 
 <br>
