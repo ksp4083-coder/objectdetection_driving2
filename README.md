@@ -68,7 +68,7 @@
 우리가 사용하는 데이터에서 객체 위치 정보는 Bounding Box의 좌측 상단 좌표(x_min, y_min), 우측 하단 좌표(x_max, y_max)로 제공됨
 </p>
 <p align="center">
-(해당 정보는 json 파일의 [Annotation][data] 변수에 들어있음)
+(해당 정보는 labels 폴더 json 파일의 [Annotation][data] 변수에 들어있음)
 </p>
 <p align="center">
 해당 좌표를 활용해서 BBox의 중심 좌표, 가로 길이, 그리고 세로 길이를 구하고
