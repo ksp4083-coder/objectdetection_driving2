@@ -65,7 +65,7 @@
 </p>
 <br>
 <p align="center">
-우리가 사용하는 데이터에서 객체 위치 정보는 BBox 좌측 상단 좌표(x_min, y_min), 우측 하단 좌표(x_max, y_max)로 제공됨
+우리가 사용하는 데이터에서 객체 위치 정보는 Bounding Box의 좌측 상단 좌표(x_min, y_min), 우측 하단 좌표(x_max, y_max)로 제공됨
 </p>
 <p align="center">
 (해당 정보는 json 파일의 [Annotation][data] 변수에 들어있음)
