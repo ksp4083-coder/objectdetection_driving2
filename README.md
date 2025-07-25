@@ -43,6 +43,7 @@
 
  #### 막간 지식
  - YOLO 객체 탐지 모델은 직사각형으로 탐지한 객체의 위치를 나타냄
+ - 해당 직사각형을 Bounding Box, 약자로 BBox라고 함
  - 모델이 객체의 특성을 학습하고 새로운 이미지에서 객체 탐지를 수행하기 위해 모델에게 객체 위치 정보를 알려주어야 하는데
  - YOLO의 경우 아래와 같은 내용이 포함된 폴더 경로를 yaml 파일에 지정하여 모델이 객체의 특성을 학습할 수 있도록 함
 <br>
@@ -62,38 +63,36 @@
 편의를 위해 해당 txt 파일을 yolo format txt 파일이라 하겠음
 </p>
 <br>
-- 우리가 사용하는 데이터에서 객체 위치 정보는 직사각형 좌측 상단 좌표(x_min, y_min), 우측 하단 좌표(x_max, y_max)가 제공됨
-- 해당 정보는 json 파일의 [Annotation][data] 변수에 들어있음
+<br>
+<p align="center">
+우리가 사용하는 데이터에서 객체 위치 정보는 BBox 좌측 상단 좌표(x_min, y_min), 우측 하단 좌표(x_max, y_max)로 제공됨
+</p>
+<p align="center">
+(해당 정보는 json 파일의 [Annotation][data] 변수에 들어있음)
+</p>
+<p align="center">
+해당 좌표를 활용해서 BBox의 중심 좌표, 가로 길이, 세로 길이를 구하고 원본 이미지 크기(image_width, image_height)로 나눠서 yolo format txt 파일을 생성함
+</p>
+<p align="center">
+(객체 위치 정보 정규화.ipynb 파일에서 확인 가능)
+</p>
 
 <br>
 
-##### 그리하여
-- labels_json 폴더에 있는 모든 json 파일에서
-- 원본 이미지 id(img_id), 이미지 가로 길이(image_width), 세로 길이(image_height),
-- 객체 이름(lbl_nm), 객체 위치 정보(annotations_info) 변수를 추출해서
-- 객체 중심 좌표를 계산하고 정규화 과정을 거쳐서 yolo format txt 파일 7,000개를 생성함
-
-<br>
-
-##### 객체 중심 좌표 구하기
-- 객체 중심 x 좌표 = (직사각형 좌측 상단 x + 우측 하단 x) / 2
-- 객체 중심 y 좌표 = (직사각형 좌측 상단 y + 우측 하단 y) / 2
+##### BBox 중심 좌표, 가로 길이, 세로 길이 구하기
+- x = (x_min + x_max) / 2
+- y = (y_min + y_max) / 2
+- w = x_max - x_min
+- h = y_max - y_min
 
 <br>
 
 ##### 정규화 식
-- yolo format x = 객체 중심 x 좌표 / 이미지 가로길이
-- yolo format y = 객체 중심 y 좌표 / 이미지 세로길이
-- yolo format w = 객체 가로길이 / 이미지 가로길이
-- yolo format h = 객체 세로길이 / 이미지 세로길이
+- yolo format x = x / image_width
+- yolo format y = y / image_height
+- yolo format w = w / image_width
+- yolo format h = h / image_height
 
-<br>
-
-##### 정규화 식 (코드)
-- x = (x+x+w)/2.0/image_width
-- y = (y+y+h)/2.0/image_width
-- w = w/image_width
-- h = h/image_height
 
 <br>
 <br>
