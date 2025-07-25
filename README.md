@@ -76,7 +76,7 @@
 원본 이미지 크기(image_width, image_height)로 나눠서 yolo format txt 파일을 생성함
 </p>
 <p align="center">
-(해당 과정은 객체 위치 정보 정규화.ipynb 파일에서 확인 가능)
+(해당 과정은 <ins>객체 위치 정보 정규화.ipynb</ins> 파일에서 확인 가능)
 </p>
 
 <br>
