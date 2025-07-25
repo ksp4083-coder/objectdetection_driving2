@@ -63,7 +63,7 @@
 </p>
 <br>
 - 우리가 사용하는 데이터에서 객체 위치 정보는 직사각형 좌측 상단 좌표(x, y), 객체의 가로길이(w), 세로길이(h)가 제공됨
-- 해당 정보는 json 파일의 [annotations][annotations_info] 변수에 들어있음
+- 해당 정보는 json 파일의 [annotations][data] 변수에 들어있음
 
 <br>
 
