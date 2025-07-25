@@ -82,7 +82,15 @@
 <br>
 <br>
 
-##### BBox 중심 좌표, 가로 길이, 세로 길이 구하기
+### labels 폴더의 json 파일에서 추출한 정보
+- 이미지 파일명(image_name)
+- 원본 이미지 크기(image_width, image_height)
+- 객체명(class_name)
+- 객체 위치 정보(x_min, y_min, x_max, y_max)
+
+<br>
+
+#### 객체 중심 좌표, 가로 길이, 세로 길이 구하기
 - x = (x_min + x_max) / 2
 - y = (y_min + y_max) / 2
 - w = x_max - x_min
@@ -90,12 +98,25 @@
 
 <br>
 
-##### 정규화 식
+#### 정규화 식
 - yolo format x = x / image_width
 - yolo format y = y / image_height
 - yolo format w = w / image_width
 - yolo format h = h / image_height
 
+<br>
+
+### 객체 정수 라벨
+            "car": "0",
+            "bus": "1",
+            "truck": "2",
+            "special vehicle": "3",
+            "motorcycle": "4",
+            "bicycle": "5",
+            "personal mobility": "6",
+            "person": "7",
+            "Traffic_light": "8",
+            "Traffic_sign": "9"
 
 <br>
 <br>
