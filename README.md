@@ -99,7 +99,7 @@ x_min, x_max는 0 ~ 1920의 값을 갖고 y_min, y_max는 0 ~ 1200의 값을 갖
 - y = (y_min + y_max) / 2
 - w = x_max - x_min
 - h = y_max - y_min
-- x와 w는 0 ~ 1920, y와 h는 0 ~ 1200 사이의 값을 갖음
+- x와 w는 0 ~ 1920, y와 h는 0 ~ 1200 사이의 값
 
 <br>
 
@@ -108,7 +108,7 @@ x_min, x_max는 0 ~ 1920의 값을 갖고 y_min, y_max는 0 ~ 1200의 값을 갖
 - yolo format y = y / image_height
 - yolo format w = w / image_width
 - yolo format h = h / image_height
-- yolo format x, y, w, h는 0 ~ 1 사이의 값을 갖음
+- yolo format x, y, w, h는 0 ~ 1 사이의 값
 
 <br>
 
