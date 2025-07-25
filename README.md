@@ -61,6 +61,39 @@
 <p align="center">
 편의를 위해 해당 txt 파일을 yolo format txt 파일이라 하겠음
 </p>
+<br>
+- 우리가 사용하는 데이터에서 객체 위치 정보는 직사각형 좌측 상단 좌표(x, y), 객체의 가로길이(w), 세로길이(h)가 제공됨
+- 해당 정보는 json 파일의 [annotations][annotations_info] 변수에 들어있음
+
+<br>
+
+##### 그리하여
+- labels_json 폴더에 있는 모든 json 파일에서
+- 원본 이미지 id(img_id), 이미지 가로 길이(image_width), 세로 길이(image_height),
+- 객체 이름(lbl_nm), 객체 위치 정보(annotations_info) 변수를 추출해서
+- 객체 중심 좌표를 계산하고 정규화 과정을 거쳐서 yolo format txt 파일 7,000개를 생성함
+
+<br>
+
+##### 객체 중심 좌표 구하기
+- 객체 중심 x 좌표 = (직사각형 좌측 상단 x + 우측 하단 x) / 2
+- 객체 중심 y 좌표 = (직사각형 좌측 상단 y + 우측 하단 y) / 2
+
+<br>
+
+##### 정규화 식
+- yolo format x = 객체 중심 x 좌표 / 이미지 가로길이
+- yolo format y = 객체 중심 y 좌표 / 이미지 세로길이
+- yolo format w = 객체 가로길이 / 이미지 가로길이
+- yolo format h = 객체 세로길이 / 이미지 세로길이
+
+<br>
+
+##### 정규화 식 (코드)
+- x = (x+x+w)/2.0/image_width
+- y = (y+y+h)/2.0/image_width
+- w = w/image_width
+- h = h/image_height
 
 <br>
 <br>
