@@ -113,9 +113,9 @@ x_min, x_max는 0 ~ 1920의 값을 갖고 y_min, y_max는 0 ~ 1200의 값을 갖
 <br>
 
 ### 객체 정수 라벨
-| class -> integer |                                     
+| class → integer |                                     
 |:----------------:|
-| car -> 0 |
+| car → 0 |
 
 
 <br>
