@@ -113,18 +113,10 @@ x_min, x_max는 0 ~ 1920의 값을 갖고 y_min, y_max는 0 ~ 1200의 값을 갖
 <br>
 
 ### 객체 정수 라벨
-| Class_map |                                     
-|:-----|
-| 0 : car |
-| 1 : bus |
-| 2 : truck |
-| 3 : special vehicle |
-| 4 : motorcycle |
-| 5 : bicycle |
-| 6 : personal mobility |
-| 7 : person |
-| 8 : Traffic_light |
-| 9 : Traffic_sign |
+| integer | class |                                     
+|:--------|:------|
+| 0: | car |
+
 
 <br>
 <br>
