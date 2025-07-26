@@ -145,7 +145,6 @@ x_min, x_max는 0 ~ 1920의 값을 갖고 y_min, y_max는 0 ~ 1200의 값을 갖
 | yolov8l.pt | 100 | 64 | 0.888 | 24.17 hours | 365 layers, 43,637,550 parameters | 8l_100.pt |
 | yolov8x.pt | 100 | 64 | 0.901 | 28.61 hours | 365 layers, 68,162,238 parameters | 8x_100.pt |
 
-
 <br>
 <br>
 
