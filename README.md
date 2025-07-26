@@ -15,9 +15,9 @@
 ## 사용 데이터
 - 주최측에서 제공된 ['한국교통안전공단 자율주행 공개 데이터셋'](https://drive.google.com/file/d/1ee4kSO4iqnhErrxRnvZ2qTlbe-Iazsov/view?usp=sharing)(40.9GB)
 - 1920x1200 크기 도로 주행 이미지 10만 장과 객체 10종의 위치 정보 파일(.json) 10만 개
-  - 학습 데이터 세트 : 80,000 images 
-  - 검증 데이터 세트 : 10,000 images 
-  - 테스트 데이터 세트 : 10,000 images
+  - 학습 데이터셋 : 80,000 images 
+  - 검증 데이터셋 : 10,000 images 
+  - 테스트 데이터셋 : 10,000 images
 
 - 객체 위치 정보 파일(.json) 속성
 
