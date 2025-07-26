@@ -136,11 +136,6 @@ x_min, x_max는 0 ~ 1920의 값을 갖고 y_min, y_max는 0 ~ 1200의 값을 갖
 <br>
 
 ### 2. Base 모델 학습
-<p align="center">
-<img width="722" height="155" alt="image (2)" src="https://github.com/user-attachments/assets/fbc7bbc1-ffde-4628-a7eb-a4c1463476a4" />
-</p>
-
-### 2. Base 모델 학습
 
 | Model | epoch | batch | mAP@50 | 학습 시간 | 모델 구조 | 파일명 |                                       
 |:-----:|:-----:|:-----:|:------:|:---------:|:---------:|:------:|
@@ -155,9 +150,9 @@ x_min, x_max는 0 ~ 1920의 값을 갖고 y_min, y_max는 0 ~ 1200의 값을 갖
 <br>
 
 ### 3. 최종 모델 학습
-<p align="center">
-<img width="724" height="71" alt="image" src="https://github.com/user-attachments/assets/92f9c6e6-7bb9-4d52-ab29-cffcf208a011" />
-</p>
+| Model | epoch | batch | mAP@50 | 학습 시간 | 모델 구조 | 파일명 |                                       
+|:-----:|:-----:|:-----:|:------:|:---------:|:---------:|:------:|
+| yolov8x.pt | 620 | 64 | 0.933 | 약 7일 21시간 | 365 layers, 68,162,238 parameters | 8x_620.pt |
 
 
 <p align="center">
