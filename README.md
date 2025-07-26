@@ -12,6 +12,43 @@
 
 <Br>
 
+## YOLO 객체 탐지 모델
+- YOLO (You Only Look Once)는 객체 감지(Object Detection)를 위한 딥러닝 모델로 이미지를 한 번만 보고도 객체의 위치와 종류를 동시에 파악한다.
+- 즉, 여러 번의 처리 과정을 거치지 않고 한 번의 연산으로 객체 감지를 수행해 속도가 빠르다는 장점이 있다.
+
+### YOLO의 주요 특징:
+실시간 객체 감지:
+YOLO는 이미지 전체를 한번에 처리하여 객체를 감지하기 때문에, 동영상이나 실시간으로 움직이는 물체를 감지해야 하는 경우에 유용하다.
+
+단일 신경망:
+- 객체 감지 작업을 단일 신경망으로 처리하여 복잡한 계산을 줄이고 속도를 향상시켰다. 
+
+빠른 처리 속도와 높은 정확도:
+- One-Stage Detection 모델로 기존에 정확도가 높다고 알려진 R-CNN 모델보다 훨씬 빠른 속도와 높은 적확도로로 객체 감지를 수행한다. 
+
+YOLO 동작 방식:
+- 입력 이미지를 그리드 셀로 나눕니다.
+- 각 그리드 셀은 여러 개의 바운딩 박스(객체의 위치를 나타내는 사각형)를 예측합니다.
+- 각 바운딩 박스에 대한 객체 종류와 신뢰도 점수를 예측합니다.
+- 최종적으로 NMS(Non-Maximum Suppression)라는 과정을 통해 중복된 바운딩 박스를 제거하고 가장 정확한 결과를 얻습니다. 
+
+- YOLO는 
+- YOLO는 COCO8 데이터셋을 사전 학
+- YOLO 객체 탐지 모델은 직사각형으로 탐지한 객체의 위치를 나타냄 (해당 직사각형을 Bounding Box, 약자로 BBox라고 함)
+- YOLO 모델을 학습시키기 위해 Ultralytics GitHub 홈페이지에서 모델을 다운받고아래와 같은 데이터셋 구조를 만들고 yaml 파일을 생성해야 함 <br><br>
+<p align="center">
+[데이터셋 구조]
+</p>
+<p align="center">
+<img width="135" height="234" alt="image" src="https://github.com/user-attachments/assets/aef1c6c0-2445-4534-bfc7-e16f65fd6178" />
+</p>
+<p align="center"> <br>
+[yaml 파일 예시]
+</p>
+<p align="center">
+<img width="639" height="260" alt="image" src="https://github.com/user-attachments/assets/0d23e3a3-f9fc-47ba-aac2-3215e83ce84b" />
+</p>
+
 ## 사용 데이터
 - 주최측에서 제공된 ['한국교통안전공단 자율주행 공개 데이터셋'](https://drive.google.com/file/d/1ee4kSO4iqnhErrxRnvZ2qTlbe-Iazsov/view?usp=sharing)(40.9GB)
 - 1920x1200 크기 도로 주행 이미지 10만 장과 객체 10종의 위치 정보 파일(.json) 10만 개
