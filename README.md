@@ -144,7 +144,7 @@ x_min, x_max는 0 ~ 1920의 값을 갖고 y_min, y_max는 0 ~ 1200의 값을 갖
 
 | Model | epoch | batch | mAP@50 | 학습 시간 | 모델 구조 | 파일명 |                                       
 |:-----------|:-----:|:-----:|:------:|:--------:|:--------:|:------:|
-| yolov8n.pt |  100  |  64  |  0.71  | 21.67 hours | 225 layers, 3,012,798 parameters | 8n_100.pt |
+| yolov8n.pt | 100 | 64 | 0.71 | 21.67 hours | 225 layers, 3,012,798 parameters | 8n_100.pt |
 
 
 <br>
