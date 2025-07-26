@@ -154,11 +154,7 @@ x_min, x_max는 0 ~ 1920의 값을 갖고 y_min, y_max는 0 ~ 1200의 값을 갖
 |:-----:|:-----:|:-----:|:------:|:---------:|:---------:|:------:|
 | yolov8x.pt | 620 | 64 | 0.933 | 약 7일 21시간 | 365 layers, 68,162,238 parameters | 8x_620.pt |
 
-
-<p align="center">
 <img width="600" height="300" alt="results" src="https://github.com/user-attachments/assets/b93ab859-a1f2-426f-9c90-45c0ac75b1bf" />
-</p>
-
 
 <br>
 <br>
